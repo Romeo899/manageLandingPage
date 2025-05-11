@@ -2,9 +2,19 @@
 
 
 :root {
-    --clr-primary-400: ;
-    --clr-primary-300: ;
+    --clr-primary-red300: hsl(12, 88%, 59%);
+    --clr-primary-blue900: hsl(228, 39%, 23%);
 
-    --clr-neutral-100: ;
-    --clr-neutral-900: ;
+    --clr-neutral-blue900: hsl(227, 12%, 61%);
+    --clr-neutral-blue990: hsl(233, 12%, 13%);
+    --clr-neutral-red100: hsl(13, 100%, 96%);
+    --clr-neutral-gray100: hsl(0, 0%, 98%);
+
+
+    /* Font family */
+    --font-family-primary: 'Be Vietnam Pro', serif;
+}
+
+body {
+    font-size: 16px;
 }
