@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon-32x32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Manage Landing Page</title>
     <!-- Fonts Imported -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +15,23 @@
   </head>
   <body>
 
-    <header>
+    <header class="primary-header">
+      <div class="container">
+        <a href="#"><img src="./images/logo.svg" alt="manage landing page logo"></a>
 
-      
+        <nav class="primary-navigation">
+          <!-- role = list for screenreaders better esp for nav items. -->
+          <ul role="list" class="nav-list">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+        </nav>
+
+        <button class="button">Get Started</button>
+      </div>
     </header>
 
 
