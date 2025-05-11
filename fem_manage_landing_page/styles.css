@@ -1,4 +1,10 @@
-body {
-    background: red;
-    color: white;
+/* Colors | CSS Global Variables */
+
+
+:root {
+    --clr-primary-400: ;
+    --clr-primary-300: ;
+
+    --clr-neutral-100: ;
+    --clr-neutral-900: ;
 }

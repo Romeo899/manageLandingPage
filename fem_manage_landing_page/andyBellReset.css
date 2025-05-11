@@ -7,6 +7,19 @@
   box-sizing: border-box;
 }
 
+/* Remove spacing */
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit; /* forces people to use the proper classes.  removes fonts for h1, etcs */
+}
+
+/* margin 100% */
+html,body {
+  height: 100%;
+}
+
 /* Prevent font size inflation */
 html {
   -moz-text-size-adjust: none;
