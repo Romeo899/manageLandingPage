@@ -12,7 +12,24 @@
 
 
     /* Font family */
-    --font-family-primary: 'Be Vietnam Pro', serif;
+    --ff-primary: 'Be Vietnam Pro', serif;
+    --ff-body: var(--ff-primary);
+    --ff-heading: var(--ff-primary);
+
+
+    /* Font Weights */
+
+    --fw-regular: 400;
+    --fw-semi-bold: 500;
+    --fw-bold: 700;
+
+
+    /* Font Size */
+
+    --fs-300: .8125rem;
+    --fs-400: .875rem;
+    --fs-500: 1rem;
+    --fs-600: 1.875rem
 }
 
 body {
