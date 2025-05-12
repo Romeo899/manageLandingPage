@@ -17,11 +17,19 @@
 
     <header class="primary-header">
       <div class="container">
+
+        <div class="nav-wrapper">
         <a href="#"><img src="./images/logo.svg" alt="manage landing page logo"></a>
 
-        <nav class="primary-navigation">
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+          <img class="icon-hamburger" src="./images/icon-hamburger.svg" alt="" aria-hidden="true">
+          <img class="icon-close" src="./images/icon-close.svg" alt="">  
+          <span class="visually-hidden ">Menu</span>
+        </button>
+
+        <nav class="primary-navigation" >
           <!-- role = list for screenreaders better esp for nav items. -->
-          <ul aria-label="Primary" role="list" class="nav-list">
+          <ul aria-label="Primary" role="list" class="nav-list" id="primary-navigation">
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Product</a></li>
             <li><a href="#">About Us</a></li>
@@ -30,7 +38,8 @@
           </ul>
         </nav>
 
-        <button class="button">Get Started</button>
+        <button class="button" style="display:none">Get Started</button>
+        </div>
       </div>
     </header>
 

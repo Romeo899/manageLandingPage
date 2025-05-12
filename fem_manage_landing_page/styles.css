@@ -1,5 +1,18 @@
-/* Colors | CSS Global Variables */
+/* visually hidden nav toggle */
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap; /* added line */
+    border: 0;    
+}
+
+/* Colors | CSS Global Variables */
 
 :root {
     --clr-accent-500: hsl(12, 50%, 40%);
@@ -180,6 +193,42 @@ body {
 .button[data-type="inverted"]:focus-visible {
     background-color: var(--clr-accent-100);
     color: var(--clr-accent-300);
+}
+
+/* navigation */
+
+.primary-header {
+    margin-top: var(--size-700);
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-nav-toggle {
+    display: none;
+}
+
+@media (max-width: 50em) {
+    .primary-navigation {
+        display: none;
+    }
+
+    .mobile-nav-toggle {
+    display: block;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    padding: 0.5em;
+}
+
+.mobile-nav-toggle .icon-close {
+    display: none;
+}
+
+
 }
 
 
